@@ -22,6 +22,9 @@ const celsiusToFahrenheit = require('./utils/ctof'); // Import the function corr
 // Import the reverseString function from the reverseStringjs file
 const { reverseString } = require('./utils/reverseString');
 
+// Import the fibonacci function from fibonacci.js file
+const { fibonacci } = require('./utils/fibonacci');
+
 // The main() function calculates the factorial of 5 and logs the result to the console
 // and reverse  the string "evil" and logs the result to the console.
 
@@ -39,6 +42,12 @@ async function main () {
   const reversedStr = reverseString("evil"); // Call the reverseString function with the value of evil
   console.log('the reversed string of "evil" is: ', reversedStr); // Log the result to the console
 
+  // Fibonacci Sequence generation
+  const fibonacciSequence = []; // Initialize the fibonacci sequence
+  for (let i = 0; i <= 7; i++) { // Generate the fibonacci sequence of 7 terms
+    fibonacciSequence[i] = fibonacci(i); // Call the fibonacci function with the value of i
+  }
+  console.log('The fibonacci sequence of 7 terms is: ', fibonacciSequence); // Log the result to the console
 }
 
 main(); // Call the main function to calculate the factorial of 5 and reverse the string "evil"
