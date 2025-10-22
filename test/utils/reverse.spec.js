@@ -2,7 +2,7 @@
  * Author: Noah Hamblen
  * Date: 21 October 2025
  * File: reverse.spec.js
- * Description: This tests a script that reverses a string
+ * Description: This script tests a reversed string
  */
 
 // Import the reverseString function from the reverse.js file
