@@ -15,5 +15,5 @@ function sortArrayAscending(arr) {
   return arr.sort((a, b) => a - b);
 }
 
-// Export the sortArrayAscending function 
+// Export the sortArrayAscending function
 module.exports = { sortArrayAscending };

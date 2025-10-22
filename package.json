@@ -14,5 +14,14 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CODA29/nodejs-practice-repository.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CODA29/nodejs-practice-repository/issues"
+  },
+  "homepage": "https://github.com/CODA29/nodejs-practice-repository#readme"
 }
