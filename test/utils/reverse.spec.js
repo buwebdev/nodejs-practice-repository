@@ -6,7 +6,7 @@
  */
 
 // Import the reverseString function from the reverse.js file
-const reverseString = require("../src/utils/reverse.js");
+const reverseString = require("../../src/utils/reverse");
 
 /**
  * Test 1: Verify that a normal word is reversed correctly
