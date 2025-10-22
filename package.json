@@ -11,8 +11,16 @@
   "keywords": [],
   "author": "Professor Krasso",
   "license": "MIT",
-  "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-kuronya/nodejs-practice-repository.git"
+  },
+  "bugs": {
+    "url": "https://github.com/john-kuronya/nodejs-practice-repository/issues"
+  },
+  "homepage": "https://github.com/john-kuronya/nodejs-practice-repository#readme",
+  "description": ""
 }
