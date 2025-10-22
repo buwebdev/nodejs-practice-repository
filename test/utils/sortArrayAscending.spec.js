@@ -9,7 +9,7 @@
 // Import the sortArrayAscending function
 const { sortArrayAscending } = require('../../src/utils/sortArrayAscending');
 
-
+// Test suite for sortArrayAscending function
 describe('sortArrayAscending.js', () => {
 
   it('should sort an array of numbers in ascending order', () => {
@@ -27,7 +27,8 @@ describe('sortArrayAscending.js', () => {
 
 
   it('should throw an error when the input is not an array', () => {
-    expect(() => sortArrayAscending('not an array')).toThrow('Input must be an array');
+    // we are providing a string instead of an array
+    expect(() => sortArrayAscending('the quick brown fox')).toThrow('Input must be an array');
   });
 });
 
