@@ -8,6 +8,9 @@
 // Import the factorial function from the factorial.js file
 const { factorial } = require('./utils/factorial');
 
+// Import the rectangle area function from the rectangle.js file
+const { calculateRectangleArea } = require('./utils/rectangle');
+
 // The main() function calculates the factorial of 5 and logs the result to the console
 async function main () {
   const result = factorial(5); // Call the factorial function with the value of 5
