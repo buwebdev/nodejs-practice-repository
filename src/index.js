@@ -15,6 +15,9 @@ const { calculateRectangleArea } = require('./utils/rectangle');
 async function main () {
   const result = factorial(5); // Call the factorial function with the value of 5
   console.log('factorial of 5 is', result); // Log the result to the console
+
+  const area = calculateRectangleArea(5, 10); // Call the calculateRectangleArea function
+  console.log('area of rectangle (5 x 10) is', area); // Log the result to the console
 }
 
-main(); // Call the main function to calculate the factorial of 5
+main(); // Call the main function to calculate the factorial of 5, and also calculate the area of a 5 x 10 rectangle.
