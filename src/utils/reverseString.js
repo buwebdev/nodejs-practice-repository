@@ -1,0 +1,17 @@
+/**
+ * Author: Jarren Bess
+ * Date: 2 June 2026
+ * File: reverseString.js
+ * Description: Utility function to reverse a string.
+ */
+"use strict";
+
+function reverseString(str) {
+  if (typeof str !== "string") {
+    throw new Error("Input must be a string");
+  }
+
+  return str.split("").reverse().join("");
+}
+
+module.exports = { reverseString };
