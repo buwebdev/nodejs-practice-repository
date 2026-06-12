@@ -10,7 +10,7 @@
 function getArrayMaxValue(arr) {
 
     // If the input is not an array, return an error
-    if (!arr.isArray()) {
+    if (!Array.isArray(arr)) {
         throw new Error('Input value is not an array for getArrayMaxValue');
     }
 
