@@ -1,7 +1,7 @@
 
 /**
  * Author: Jonathan Cantu
- * Date: October 24, 2027
+ * Date: October 24, 2026
  * File: palindrome.spec.js
  * Description: This script tests the factorial function.
  */

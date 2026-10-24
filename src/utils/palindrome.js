@@ -1,6 +1,6 @@
 /**
  * Author: Jonathan Cantu
- * Date: October 24, 2027
+ * Date: October 24, 2026
  * File: palindrome.js
  * Description: This script determines if a string is a palindrome.
  */
